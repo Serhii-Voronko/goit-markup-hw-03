@@ -62,6 +62,9 @@ img {
 .header-container {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -78,10 +81,7 @@ img {
   color: #404bbf;
 }
 
-.header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 
 .text {
   font-family: "Raleway", sans-serif;
@@ -242,8 +242,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize padding-top: 120px;
+  padding-top: 120px;
   padding-bottom: 72px;
+  text-transform: capitalize
 }
 
 .team-item {
@@ -280,13 +281,11 @@ img {
   gap: 24px;
 }
 
-.team-image {}
 
 
 /*-----------------TEAM-------------------*/
 /*-----------------MADE-------------------*/
 
-.made {}
 
 .made-title {
   font-weight: 700;
