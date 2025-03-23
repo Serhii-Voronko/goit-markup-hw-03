@@ -35,7 +35,8 @@ img {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-list,
@@ -52,8 +53,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
 }
 
 .header-navigation {
