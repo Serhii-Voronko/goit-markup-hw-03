@@ -37,6 +37,12 @@ img {
   margin: 0 auto;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .header-menu-list,
 .header-menu-item,
 .header-menu-link {
@@ -79,10 +85,7 @@ img {
   color: #404bbf;
 }
 
-.header {
-  border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0 24px;
-}
+
 
 .text {
   font-family: "Raleway", sans-serif;
@@ -190,8 +193,23 @@ img {
 /*-----------------HERO-------------------*/
 
 /*-----------------FEATURES-------------------*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .features {
   padding: 120px 0;
+  border-radius: 0px 0px 4px 4px;
+
 }
 
 .features-list {
@@ -204,7 +222,6 @@ img {
 .features-item {
   flex-basis: calc((100% - 72px) / 4);
   background-color: #FFFFFF;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .features-subtitle {
@@ -214,7 +231,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
+  text-align: left;
 }
 
 .features-item-text {
@@ -223,7 +240,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
+  text-align: left;
 }
 
 /*-----------------FEATURES-------------------*/
@@ -327,8 +344,9 @@ img {
 .made-item {
   background-color: #ffffff;
   margin-bottom: 8px;
-  flex-basis: calc((100% - 72px) / 3);
+  width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
+  column-gap: 24px row-gap: 48px
 }
 
 .made-list {
