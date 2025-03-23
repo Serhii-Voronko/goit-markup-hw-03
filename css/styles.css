@@ -62,7 +62,8 @@ img {
 .header-container {
   display: flex;
   justify-content: space-between;
-  
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -80,8 +81,7 @@ img {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+
   border-bottom: 1px solid #e7e9fc;
 }
 
