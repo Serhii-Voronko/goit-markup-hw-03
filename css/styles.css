@@ -51,6 +51,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+
 }
 
 .header-navigation {
@@ -63,6 +64,7 @@ img {
   justify-content: space-between;
 }
 
+
 .header-menu-link {
   display: block;
   font-weight: 500;
@@ -70,7 +72,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -141,9 +142,12 @@ img {
   color: #ffffff;
 }
 
+
+
 /*-----------------BODY-------------------*/
 
 /*-----------------HEADER-------------------*/
+
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -170,6 +174,8 @@ img {
   margin: 0 auto;
 }
 
+
+
 .hero-title {
   display: block;
   max-width: 496px;
@@ -181,6 +187,9 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
 }
+
+
+
 
 /*-----------------HERO-------------------*/
 
@@ -278,8 +287,13 @@ img {
   gap: 24px;
 }
 
+
+
 /*-----------------TEAM-------------------*/
 /*-----------------MADE-------------------*/
+.made-info {
+  padding: 32px 0;
+}
 
 .made-title {
   font-weight: 700;
@@ -298,7 +312,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-transform: capitalize;
+  text-transform: capitalize
   text-align: center;
 }
 
@@ -315,10 +329,6 @@ img {
   background-color: #FFFFFF;
   margin-bottom: 8px;
   flex-basis: calc((100% - 72px) / 3);
-}
-
-.made-info {
-  padding: 32px 0;
 }
 
 .made-list {
@@ -363,5 +373,6 @@ img {
 .footer-accent {
   color: #f4f4fd;
 }
+
 
 /*-----------------FOOTER-------------------*/
