@@ -52,19 +52,22 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-navigation {
   display: flex;
   align-items: center;
+
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
+
+
 
 .header-menu-link {
   display: block;
@@ -81,7 +84,6 @@ img {
 }
 
 .header {
-
   border-bottom: 1px solid #e7e9fc;
 }
 
