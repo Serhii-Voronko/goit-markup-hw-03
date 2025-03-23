@@ -62,9 +62,7 @@ img {
 .header-container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 
 .header-menu-link {
@@ -81,7 +79,11 @@ img {
   color: #404bbf;
 }
 
-
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .text {
   font-family: "Raleway", sans-serif;
