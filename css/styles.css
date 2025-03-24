@@ -220,7 +220,7 @@ img {
 
 
 .features-item {
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
@@ -368,6 +368,9 @@ img {
   margin-bottom: 0;
 }
 
+.made-container {
+  border-top: none;
+}
 
 /*-----------------MADE-------------------*/
 
