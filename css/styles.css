@@ -220,8 +220,8 @@ img {
 
 
 .features-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  background-color: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -248,8 +248,7 @@ img {
 
 /*-----------------TEAM-------------------*/
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 
@@ -307,7 +306,7 @@ img {
 
 
 .made {
-  padding: 120px 0 120px 0;
+  padding: 120px 0;
 }
 
 .made-info {
@@ -346,13 +345,10 @@ img {
 
 .made-item {
   background-color: #ffffff;
-  margin-bottom: 8px;
+  margin-bottom: 48px;
   width: calc((100% - 48px) / 3);
 }
 
-.made-item {
-  margin-bottom: 48px;
-}
 
 .made-list {
   display: flex;
