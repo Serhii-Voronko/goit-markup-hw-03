@@ -39,7 +39,6 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .header-menu-list,
@@ -66,6 +65,7 @@ img {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-menu-link {
@@ -333,23 +333,15 @@ img {
 
 .made-item {
   background-color: #ffffff;
-  margin-bottom: 48px;
   width: calc((100% - 48px) / 3);
 }
 
 .made-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
 }
 
-.made-item:nth-child(3n) {
-  margin-right: 0;
-}
-
-.made-item:nth-last-child(-n+3) {
-  margin-bottom: 0;
-}
 
 .made-container {
   border-top: none;
